@@ -15,6 +15,10 @@
     font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    background-color: #1F242D;
+}
+
 header{
     background-color: #1F242D;
     color: white;
@@ -58,16 +62,16 @@ header a:hover{
 main{
     width: 100%;
     height: 100vh;
+    background-color: #1F242D;
 }
 
 .inicial, .meio{
     width: 100%;
-    height: 650px;
     display: flex;
 }
 
 .inicial{
-    height: 800px;
+    
 }
 
 audio{
@@ -125,12 +129,17 @@ h1{
     text-indent: 20px;
 }
 
+
 .primeiro-par{
     margin-top: 50px;
 }
 
+.ultimoPar{
+    margin-bottom: 50px;
+}
+
 .sobre img{
-    height: 250px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 10px #04D939;
 }
@@ -151,6 +160,7 @@ h1{
 .projetos ul{
     display: inline-block;background-color: white;
 }
+
 .projetos ul li{ 
     color: #ffffff;
     font-size: 20px;
@@ -160,26 +170,22 @@ h1{
 }
 
 .caixa1{
-    width: 80%;
-    margin-left: 50px;
+    width: 100%;
+    margin-left: 80px;
     display: flex;
 }
 
 .caixa1-esquerda{
-    width: 70%;
+    width: 100%;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .caixa1-esquerda p{
-    margin-bottom: 25px;
     cursor: pointer;
+    text-align: left;
 }
 
-.caixa1-direita{
-    display: flex;
-    flex-direction: column;
-}
 
 .caixa1-esquerda p:hover{
     color: #04D939;
@@ -355,11 +361,12 @@ footer{
 }
 
 footer p{
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 
-
+/*Versão para telas medias*/
 @media screen and (max-width: 1190px){
     .inicial{
         display: flex;
@@ -401,6 +408,8 @@ footer p{
     }
 }
 
+
+/*Versão Mobile*/
 @media screen and (max-width: 800px){
 
 body, html{
@@ -463,10 +472,6 @@ body, html{
         font-size: 30px;
     }
 
-    .bemVindo{
-        
-    }
-
     .bemVindo p{
         font-size: 18px;
     }
@@ -507,7 +512,7 @@ body, html{
 
     .redesSociais h2{
         font-size: 25px;
-        margin-bottom: 30px;
+        margin: 30px 0;
     }
 
     .redesSociais h3{
@@ -541,7 +546,7 @@ body, html{
     }
 
     footer p{
-        font-size: 18px;
+        font-size: 16px;
     }
     
 }
