@@ -27,6 +27,7 @@ header{
     position: fixed;
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid rgb(179, 179, 179);
 }
 
 .menuHamburguer{
@@ -42,8 +43,6 @@ header{
     width: 30%;
     text-align: end;
 }
-
-
 
 header a{
     text-decoration: none;
@@ -68,14 +67,6 @@ main{
 .inicial, .meio{
     width: 100%;
     display: flex;
-}
-
-.inicial{
-    
-}
-
-audio{
-    margin-top: 50px;
 }
 
 .bemVindo{

@@ -6,3 +6,4 @@ function showMenu(){
         menu.style.display = 'flex'
     }
 }
+

@@ -12,10 +12,10 @@
 <body >
     <header>
         <div class="headerEsquerda">
-            <a href=""><nav>HOME</nav></a>
-            <a href="">PROJETOS WEB</a>
-            <a href="">PROJETOS DESIGN</a>
-            <a href="">CONTATO</a>
+            <a href="index.html" class="js-link"><nav>HOME</nav></a>
+            <a href="#meusProjetos" class="js-link">PROJETOS WEB</a>
+            <a href="projDesign.html" class="js-link">PROJETOS DESIGN</a>
+            <a href="#contato" class="js-link">CONTATO</a>
         </div>
         <div class="headerDireita">
             <h2>Portfólio</h2>
@@ -25,7 +25,7 @@
     </header>
 
 
-    <main onload="aumentaIcones()">
+    <main>
         <section class="inicial">
             <div class="bemVindo">
                 <h1>BEM-VINDO<nav>(A)</nav></h1>
@@ -43,7 +43,7 @@
             </div>
         </section>
 
-        <section class="meio">
+        <section class="meio" id="meusProjetos">
             <div class="projetos">
                 <h2>ALGUNS DE MEUS <nav>PROJETOS</nav></h2>
                 <div class="caixa1">
@@ -73,8 +73,8 @@
             </div>
         </section>
 
-        <section class="final">
-            <div class="redesSociais">
+        <section class="final" id="contato">
+            <div class="redesSociais" >
                 <h2><nav>CONTATO</nav></h2>
                 <h3>VISITE MINHAS REDES <nav>SOCIAIS</nav></h3>
                 <div class="containerIcones">
@@ -101,7 +101,6 @@
                 </form>
             </div>
         </section>
-
         <footer>
             <p>Site criado por <b>Bruno de Paula dos Santos</b></p>
         </footer>
