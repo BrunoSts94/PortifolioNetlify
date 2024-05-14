@@ -19,6 +19,15 @@ body{
     background-color: #1F242D;
 }
 
+.mascara{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #13161bec;
+    transition: visibility 1s ease-in-out;
+}
 header{
     background-color: #1F242D;
     color: white;
@@ -135,6 +144,24 @@ h1{
     box-shadow: 0px 0px 0px 10px #04D939;
 }
 
+.infoProjs{
+    position: absolute;
+    left: -590px;
+    background-color: rgb(255, 255, 255);
+    color: #1F242D;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    text-indent: 20px;
+
+    width: 600px;
+    height: 230px;
+    border-radius: 10px;
+    border: 4px solid #04D939;
+    padding: 20px;
+    transition: left 1s ease-in-out;
+}
+
 .projetos{
     background-color: #323946;
     width: 40%;
@@ -175,22 +202,30 @@ h1{
 .caixa1-esquerda p{
     cursor: pointer;
     text-align: left;
+    margin-bottom: 15px;
+}
+
+#p8{
+    margin-bottom: 50px;
 }
 
 
 .caixa1-esquerda p:hover{
     color: #04D939;
+    text-decoration: underline;
     transition: 0.4s;
 }
 
 span{
     color: #04D939;
     cursor: pointer;
-    margin-bottom: 35px;
+    margin-left: calc(50% - 30px);
+    margin-top: 20px;
 }
 
 span:hover{
-    color: white;
+    color: #034213;
+    transition: 0.5s;
 }
 
 nav{
@@ -402,12 +437,6 @@ footer p{
 
 /*Versão Mobile*/
 @media screen and (max-width: 800px){
-
-body, html{
-    width: 100vw;
-    height: auto;
-}
-
     header{
         flex-direction: column-reverse;
         position: static;
@@ -476,7 +505,19 @@ body, html{
     }
 
     .projetos{
-        padding: 20px;
+        background-color: #323946;
+    }
+
+    .infoProjs{
+        max-width: 80%;
+        height: auto;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+    .caixa1{
+        width: 100%;
+        margin: 0;
     }
 
     .projetos h2{
@@ -493,6 +534,11 @@ body, html{
 
     .caixa1-esquerda{
         text-align: left;
+        margin: 0;
+    }
+
+    .caixa1-esquerda p {
+        margin-left: 50px;
     }
 
     
