@@ -571,6 +571,7 @@ footer p{
 
     .formEmail{
         text-align: center;
+        
     }
 
     .formEmail h3{
@@ -580,6 +581,7 @@ footer p{
 
     form{
         padding: 20px 0;
+        width: 85vw;
     }
 
     footer p{
