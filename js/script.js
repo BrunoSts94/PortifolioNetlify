@@ -72,6 +72,11 @@ function showInfoProjs(valorP){
         linkPage.href = 'https://brunosts94.github.io/MeuPortifolio/Landing%20Page%20Empresa/index.html'
 		break
 
+        case p9: 
+        textInfo.innerHTML = "Projeto criado para a empresa Elite treinamentos, esta foi o minha primeira experiência como freelancer, onde pude colocar em prática todo meu conhecimento e empenho. Se trata de uma página com o objetivo de apresentar um negócio e seus serviços."
+        linkPage.href = 'https://elitetreinamentos.netlify.app/'
+		break
+
 		default:
 		console.log("opção não cadastrada")
 		break
