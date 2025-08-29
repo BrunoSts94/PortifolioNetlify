@@ -15,6 +15,13 @@
     font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
 }
 
+/*Icone Alicia*/
+.bpFabWrapper :hover{
+  border: 1px solid #04D939;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
 body{
     background-color: #1F242D;
 }
@@ -470,14 +477,14 @@ footer p{
     }
 
     .headerDireita h2{
-        font-size: 25px;
+        font-size: 20px;
         color: #04D939;
         margin-bottom: 10px;
     }
 
     .menuHamburguer{
         display: block;
-        width: 50px;
+        width: 40px;
         padding: 0;
         margin: 0;
         cursor: pointer;
@@ -487,21 +494,43 @@ footer p{
         width: 100%;
     }
 
-    h1{
-        margin-top: 20px;
-        font-size: 30px;
+    h1{  
+        font-size: 15px;
+        margin: 0px 0px 20px 0px;
     }
 
     .bemVindo p{
-        font-size: 18px;
+        font-size: 10px;
+        margin: 0px 50px;
+        line-height: 20px;
+    }
+
+    .bemVindo .p2{
+        margin-bottom: 10px;
+    }
+
+    .bemVindo{
+        padding: 20px;
+    }
+
+    .sobre{
+        padding: 20px;
     }
 
     .sobre h2{
-        font-size: 25px;
+        font-size: 20px;
+        margin: 0px 0px 30px 0px;
     }
 
     .sobre img{
-        height: 180px;
+        height: 150px;
+    }
+
+    .sobre p{
+        font-size: 10px;
+        line-height: 20px;
+        margin: 20px 50px;
+        color: #034213;
     }
 
     .projetos{
@@ -521,7 +550,7 @@ footer p{
     }
 
     .projetos h2{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .projetos p{
