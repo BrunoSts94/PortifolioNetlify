@@ -16,11 +16,16 @@
 }
 
 /*Icone Alicia*/
-.bpFabWrapper :hover{
+.bpFabWrapper :hover{   /*Adiciona uma borda ao redor do icone*/
   border: 1px solid #04D939;
   border-radius: 50%;
   transition: 0.5s;
 }
+
+.bpFab {  /*Aumenta o tamanho do icone*/
+  width: 120px !important;
+  height: 120px !important;
+} 
 
 body{
     background-color: #1F242D;
@@ -423,9 +428,6 @@ footer p{
         margin-bottom: 50px;
     }
 
-    .bemVindo{
-
-    }
 
     .sobre{
         padding: 0 80px;
