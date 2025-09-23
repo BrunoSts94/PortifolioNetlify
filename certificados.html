@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/design.css">
-    <link rel="stylesheet" href="style/design.css">
     <link rel="stylesheet" href="css/certificado.css">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/08/29/12/20250829125243-0C1BA23Z.js" defer></script>
     <title>Certificados</title>
 </head>
 
@@ -24,11 +24,157 @@
     </header>
 
     <main>
-        <section class="final" id="contato">
-            <section class="emConstrucao">
-            <h1>Em construção...</h1>
-            <p>Esta página encontra-se em construção, em breve estarei disponibilizando meus certificados aqui.</p>
+        <section class="container-certificados">
+            <h1>Certificados</h1>
+            <p class="cert-subtitle">Cursos, bootcamps e certificações — clique para visualizar.</p>
+            <p class="cert-subtitle"><strong>Obs: a página ainda encontra-se em desenvolvimento, por conta disso ainda podem estar ocorrendo alguns erros de performance gráfica</strong>  </p>
+
+            <ul class="cert-grid" role="list" aria-live="polite">
+
+                <li class="cert-card">
+                    <figure class="cert-thumb">
+                    <img src="./img/cert-ads.jpg" alt="Certificado do curso Exemplo" />
+                    </figure>
+
+                    <div class="cert-body">
+                        <h3 id="cert-1-title" class="cert-name">⭐ Graduação: Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="cert-meta"><span class="cert-issuer">Uniftec</span> Dezembro 2023</p>
+                        <div class="cert-actions">
+                            <!-- Botão que abre modal/preview (JS usará data-cert-src) -->
+                            <button type="button" class="btn btn-view js-cert-preview" data-cert-src="./img/cert-ads.jpg" aria-controls="cert-modal" aria-haspopup="dialog">
+                            Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cert-card">
+                    <figure class="cert-thumb">
+                    <img src="./img/cert-gestor-ia.jpg" alt="Certificado do curso Gestor de IA" />
+                    </figure>
+
+                    <div class="cert-body">
+                        <h3 id="cert-1-title" class="cert-name">Bootcamp: Gestor de IA</h3>
+                        <p class="cert-meta"><span class="cert-issuer">Devclub</span> Setembro 2025</p>
+                        <p class="cert-desc"><strong>Conteúdo programático:</strong> <br>-Entendimento geral sobre IA; <br>-Aplicações e ferramentas para aumento da produtividade em desenvolvimento; <br>-Engenharia de prompts; <br>-Criação de agentes de IA; <br>-Primeiros passos com N8N.</p>
+                        <div class="cert-actions">
+                            <!-- Botão que abre modal/preview (JS usará data-cert-src) -->
+                            <button type="button" class="btn btn-view js-cert-preview" data-cert-src="./img/cert-gestor-ia.jpg" aria-controls="cert-modal" aria-haspopup="dialog">
+                            Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cert-card">
+                    <figure class="cert-thumb">
+                    <img src="./img/cert-front-end.jpg" alt="Certificado do curso Exemplo" />
+                    </figure>
+                    <div class="cert-body">
+                        <h3 id="cert-1-title" class="cert-name">Curso: Formação front-end</h3>
+                        <p class="cert-meta"><span class="cert-issuer">Devclub</span> Dezembro 2024</p>
+                        <p class="cert-desc"><strong>Conteúdo programático:</strong><br> -Preparação de ambiente de trabalho;<br> -HTML, CSS avançado, JavaScript;<br> -Versionamento com Git/Github;<br> -React avançado e Node.js.</p>
+                        <div class="cert-actions">
+                            <!-- Botão que abre modal/preview (JS usará data-cert-src) -->
+                            <button type="button" class="btn btn-view js-cert-preview" data-cert-src="./img/cert-front-end.jpg" aria-controls="cert-modal" aria-haspopup="dialog">
+                            Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cert-card">
+                    <figure class="cert-thumb">
+                    <img src="./img/cert-sql.jpg" alt="Certificado do curso Exemplo" />
+                    </figure>
+
+                    <div class="cert-body">
+                        <h3 id="cert-1-title" class="cert-name">Curso: Banco de dados e SQL (Exemplo)</h3>
+                        <p class="cert-meta"><span class="cert-issuer">Udemy</span> Abril 2024</p>
+                        <p class="cert-desc"><strong>Conteúdo programático:</strong> <br>-Criação e modelagem de DB; <br>-Uso de MySQL, SQL Server e Oracle; <br>-Execução de SQL em diversos DBs; <br>-Programação em DB; <br>-Realização de backups, restore e constraints.</p>
+
+                        <div class="cert-actions">
+                            <!-- Botão que abre modal/preview (JS usará data-cert-src) -->
+                            <button type="button" class="btn btn-view js-cert-preview" data-cert-src="./img/cert-sql.jpg" aria-controls="cert-modal" aria-haspopup="dialog">
+                            Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cert-card">
+                    <figure class="cert-thumb">
+                    <img src="./img/cert-javascript.jpg" alt="Certificado do curso Exemplo" />
+                    </figure>
+
+                    <div class="cert-body">
+                        <h3 id="cert-1-title" class="cert-name">Curso: Javascript Completo</h3>
+                        <p class="cert-meta"><span class="cert-issuer">Danki Code</span> Julho 2023</p>
+                        <p class="cert-desc"><strong>Conteúdo programático:</strong> <br>-Fundamentos de JavaScript; <br>-Programação orientada a objetos; <br>-Programação assíncrona; <br>-Manipulação de DOM; <br>-Trabalhando com APIs.</p>
+
+                        <div class="cert-actions">
+                            <!-- Botão que abre modal/preview (JS usará data-cert-src) -->
+                            <button type="button" class="btn btn-view js-cert-preview" data-cert-src="./img/cert-javascript.jpg" aria-controls="cert-modal" aria-haspopup="dialog">
+                            Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cert-card">
+                    <figure class="cert-thumb">
+                    <img src="./img/cert-html-css.jpg" alt="Certificado do curso Exemplo" />
+                    </figure>
+
+                    <div class="cert-body">
+                        <h3 id="cert-1-title" class="cert-name">Curso: HTML5 e CSS3</h3>
+                        <p class="cert-meta"><span class="cert-issuer">Curso em Video</span> Julho 2023</p>
+                        <p class="cert-desc"><strong>Conteúdo programático:</strong> <br>-Introdução ao HTML5; <br>-Estilização com CSS3; <br>-Layouts responsivos; <br>-Boas práticas de desenvolvimento.</p>
+
+                        <div class="cert-actions">
+                            <!-- Botão que abre modal/preview (JS usará data-cert-src) -->
+                            <button type="button" class="btn btn-view js-cert-preview" data-cert-src="./img/cert-html-css.jpg" aria-controls="cert-modal" aria-haspopup="dialog">
+                            Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cert-card">
+                    <figure class="cert-thumb">
+                    <img src="./img/cert-git.jpg" alt="Certificado do curso Exemplo" />
+                    </figure>
+
+                    <div class="cert-body">
+                        <h3 id="cert-1-title" class="cert-name">Curso: Git e GitHub</h3>
+                        <p class="cert-meta"><span class="cert-issuer">Curso em Video</span> Maio 2023</p>
+                        <p class="cert-desc"><strong>Conteúdo programático:</strong> <br>-Controle de versão com Git; <br>-Colaboração em projetos com GitHub; <br>-Branching e Merging; <br>-Resolução de conflitos.</p>
+
+                        <div class="cert-actions">
+                            <!-- Botão que abre modal/preview (JS usará data-cert-src) -->
+                            <button type="button" class="btn btn-view js-cert-preview" data-cert-src="./img/cert-git.jpg" aria-controls="cert-modal" aria-haspopup="dialog">
+                            Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Modal de visualização (inicialmente escondido; controlado por JS) -->
+            <div id="cert-modal" class="cert-modal"  aria-modal="true" aria-hidden="true" aria-labelledby="cert-modal-title">
+                <div class="cert-modal-panel">
+                    <button class="cert-modal-close js-cert-close" aria-label="Fechar visualização">Voltar</button>
+
+                    <!-- Aqui o JS pode inserir <iframe> ou <img> com o src vindo do data-cert-src -->
+                    <div class="cert-modal-body" id="cert-modal-body" tabindex="0">
+                    <!-- Exemplo: <iframe src="" frameborder="0" title="Visualização do certificado"></iframe> -->
+                    </div>
+                </div>
+            </div>
+
         </section>
+
+        <section class="final" id="contato">    
             <div class="redesSociais" >
                 <h2><nav>CONTATO</nav></h2>
                 <h3>VISITE MINHAS REDES <nav>SOCIAIS</nav></h3>
@@ -61,7 +207,7 @@
             <p>Site criado por <b>Bruno de Paula dos Santos</b></p>
         </footer>
     </main>
-
     <script src="./js/script.js"></script>
+    <script src="./js/script-certif.js"></script>
 </body>
 </html>
