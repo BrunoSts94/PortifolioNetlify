@@ -227,6 +227,7 @@ b{
     background-color: #323946;
 }
 
+/* container cards certificados */
 .container-certificados h1{
     text-align: center;
     color: white;
@@ -263,6 +264,27 @@ b{
   box-shadow: 0 4px 16px rgba(0, 255, 136, 0.2);
 }
 
+
+.cert-card p{
+  color: rgb(233, 232, 232);
+  margin-bottom: 10px;
+  background-color: #101318;
+}
+
+.cert-date img{
+  width: 20px;
+}
+
+.cert-body .cert-date{
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: right;
+  gap: 10px;
+  font-size: 0.8rem;
+  background-color: #101318;
+}
+
 .cert-thumb {
   width: 100%;
   height: 160px;
@@ -284,6 +306,11 @@ b{
   justify-content: space-between;
 }
 
+.cert-body h3, .cert-body p {
+  margin: 0;
+  background-color: #101318;
+}
+
 .cert-name {
   font-size: 1.1rem;
   font-weight: bold;
@@ -297,10 +324,10 @@ b{
   margin-bottom: 0.8rem;
 }
 
-.cert-desc {
+.cert-body .cert-desc {
   font-size: 0.9rem;
   color: #c9d1d9;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   flex: 1;
 }
 
@@ -392,3 +419,118 @@ b{
   display: flex;
   justify-content: flex-end;
 }
+
+
+/*Versão Mobile*/
+@media screen and (max-width: 800px){
+    header{
+        flex-direction: column-reverse;
+        position: static;
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerEsquerda{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .headerEsquerda a{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .headerDireita{
+        width: 100%;
+        display: flex;
+        float: inline-start;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        margin: 0;
+        padding: 30px 10px 10px 10px;
+    }
+
+    .headerDireita h2{
+        font-size: 20px;
+        color: #04D939;
+        margin-bottom: 10px;
+    } 
+
+    .menuHamburguer{
+        display: block;
+        width: 40px;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+    }
+
+
+    .caixa1-esquerda p {
+        margin-left: 50px;
+    }
+
+    .final{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    
+    .redesSociais h2{
+        font-size: 1.5rem;
+        margin: 30px 0;
+    }
+
+    .redesSociais h3{
+        margin-bottom: 20px;
+    }
+
+    .redesSociais img{
+        height: 40px;
+    }
+
+    .redesSociais{
+        text-align: center;
+        padding: 10px 50px;
+    }
+
+    .redesSociais h3, .formEmail h3 {
+        font-size: 1rem;
+    }
+
+    .containerIcones{
+        background-color: #1F242D;
+    }
+
+    .formEmail{
+        text-align: center;
+        
+    }
+
+    .formEmail h3{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    form{
+        padding: 20px 0;
+        width: 85vw;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+
+    .bpFab {  /*Aumenta o tamanho do icone*/
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+  }
