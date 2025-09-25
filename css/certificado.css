@@ -306,7 +306,7 @@ b{
   justify-content: space-between;
 }
 
-.cert-body h3, .cert-body p {
+.cert-body h3, .cert-body p, .cert-body span, .cert-body strong {
   margin: 0;
   background-color: #101318;
 }
@@ -423,6 +423,16 @@ b{
 
 /*Versão Mobile*/
 @media screen and (max-width: 800px){
+
+    .bpFab {  /*Diminui o tamanho do icone*/
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .bpFabWrapper {   /*Adiciona uma borda ao redor do icone*/
+        background-color: transparent;
+    }
+
     header{
         flex-direction: column-reverse;
         position: static;
@@ -476,6 +486,14 @@ b{
         margin-left: 50px;
     }
 
+    .container-certificados h1{
+      font-size: 1.5rem;
+    }
+
+    .container-certificados p{
+      font-size: 0.8rem;
+    }
+
     .final{
         flex-direction: column;
         width: 100%;
@@ -499,6 +517,7 @@ b{
     .redesSociais{
         text-align: center;
         padding: 10px 50px;
+        width: 100%;
     }
 
     .redesSociais h3, .formEmail h3 {
@@ -511,6 +530,7 @@ b{
 
     .formEmail{
         text-align: center;
+        width: 100%;
         
     }
 
@@ -525,12 +545,6 @@ b{
     }
 
     footer p{
-        font-size: 16px;
+        font-size: 0.8rem;
     }
-
-    .bpFab {  /*Aumenta o tamanho do icone*/
-        width: 70px !important;
-        height: 70px !important;
-    }
-
   }
