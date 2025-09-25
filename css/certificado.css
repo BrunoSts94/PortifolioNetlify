@@ -9,6 +9,10 @@
 }
 
 /*Definições da Alicia*/
+.bpFabWrapper{
+  background-color: transparent;
+}
+
 .bpFabWrapper :hover{   /*Adiciona uma borda ao redor do icone*/
   border: 1px solid #04D939;
   border-radius: 50%;
