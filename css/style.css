@@ -229,20 +229,35 @@ h1{
 
 .infoProjs{
     position: absolute;
-    left: -590px;
+    left: -990px;
     background-color: rgb(255, 255, 255);
     color: #1F242D;
     font-size: 1rem;
     font-weight: 600;
-    text-align: left;
-    text-indent: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    width: 600px;
-    height: 230px;
+    width: 900px;
     border-radius: 10px;
     border: 4px solid #04D939;
-    padding: 20px;
+    padding: 15px;
     transition: left 1s ease-in-out;
+}
+
+.infoProjs div{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin: 15px 0;
+    background-size: cover;
+    background-position: initial;
+    box-shadow: 0px 8px 10px #00000098;
+}
+
+.infoProjs p{
+    font-size: 1rem;
+    text-align: justify;
 }
 
 .projetos{
@@ -630,6 +645,19 @@ footer p{
         margin: 20px 50px;
         color: #034213;
     }
+    .infoProjs{
+       max-width: 80%; 
+       font-size: 0.5rem;
+    }
+    
+
+    .infoProjs p {
+        font-weight: 400;
+    }
+
+    .textInfo{
+        font-size: 0.8rem;
+    }
 
     .projetos{
         background-color: #323946;
@@ -655,12 +683,6 @@ footer p{
 
     .projetos{
         background-color: #1F242D;
-    }
-
-    .infoProjs{
-        max-width: 80%;
-        height: auto;
-        font-weight: 500;
     }
 
     .caixa1{
