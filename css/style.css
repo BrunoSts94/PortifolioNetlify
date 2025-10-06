@@ -652,7 +652,12 @@ footer p{
     
 
     .infoProjs p {
-        font-weight: 400;
+        font-weight: 500;
+        font-size: 0.8rem !important;
+    }
+
+    .infoProjs div{
+        background-position: center;
     }
 
     .textInfo{
