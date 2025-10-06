@@ -38,13 +38,13 @@ function showInfoProjs(valorP){
 		break
 
 		case p2: 
-        textInfo.innerHTML = "Neste projeto trabalhei um pouco sobre modelos e a criação de landing pages, utilizando como exemplo uma empresa fictícia que criei em meu TCC na faculdade. O projeto também tem o objetivo de exercitar a responsividade na criação de sites."
+        textInfo.innerHTML = "Projeto de uma pagina de consulta sobre previsão do tempo, voce digita o nome da cidade e é retornado a previsão do tempo."
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/gerenfacil/index.html'
 		break
 
         case p3: 
         textInfo.innerHTML = "Neste projeto foi exercitado funcionalidades do javascript, o projeto tem como objetivo fazer ligação com uma API, e retornar informações climaticas conforme a localidade informada."
-        linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/clima-tempo/index.html'
+        linkPage.href = 'https://brunosts94.github.io/Projetos-React-Portifolio'
 		break
 
         case p4: 
