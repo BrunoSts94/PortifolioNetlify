@@ -22,8 +22,8 @@
   transition: 0.5s;
 }
 .bpFab {  /*Aumenta o tamanho do icone*/
-  width: 120px !important;
-  height: 120px !important;
+  width: 110px !important;
+  height: 110px !important;
 } 
 
 
@@ -92,11 +92,43 @@ main{
 }
 
 .bemVindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 55%;
     height: 100%;
     background-color: #1F242D;
-    text-align: center;
     padding: 80px 0px;
+}
+
+.btn-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    width: 40%;
+    height: 80px;
+    padding: 30px;
+    background-color: #04D939;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;    
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px #04d9398e;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+
+     transform: translateY(70px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.4s 0.7s linear 1 forwards;
+}
+.btn-cv:hover {
+    background-color: #059428;
+    color: #fff;
+    box-shadow: 0 4px 16px #04d93980;
 }
 
 h1{
@@ -209,22 +241,90 @@ h1{
 .caixaHabilidades{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 30px;
+    gap: 40px;
     box-sizing: border-box;
-    
 }
 
 .img-tecnologias{
-    height: 180px;
-    border-radius: 30px;
+    height: 100px;
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
 }
 
-.img-tecnologias:hover{
+.img-tecnologias.html:hover{
     transform: scale(1.1);
-    background-color: #04d93998;
-    box-shadow: 0px 0px 25px #05f14098;
-    transition: 0.5s;
+    background: #ff77165e;
+    box-shadow: 0px 0px 30px #FF7816cc;
 }
+
+.img-tecnologias.css:hover{
+    transform: scale(1.1);
+    background: #004CE85e;
+    box-shadow: 0px 0px 30px #004CE8cc;
+}
+
+.img-tecnologias.js:hover{
+    transform: scale(1.1);
+    background: #F7E0185e;
+    box-shadow: 0px 0px 30px #F7E018cc;
+}
+
+.img-tecnologias.react:hover{
+    transform: scale(1.1);
+    background: #30A2FF5e;
+    box-shadow: 0px 0px 30px #30A2FFcc;
+}
+
+.img-tecnologias.node:hover{
+    transform: scale(1.1);
+    background: #74A9635e;
+    box-shadow: 0px 0px 30px #74A963cc;
+}
+
+.img-tecnologias.vite:hover{
+    transform: scale(1.1);
+    background: #9962fe5e;
+    box-shadow: 0px 0px 30px #9962fecc;
+}
+
+.img-tecnologias.tailwind:hover{
+    transform: scale(1.1);
+    background: #44A8B35e;
+    box-shadow: 0px 0px 30px #44A8B3cc;
+}
+
+.img-tecnologias.cs:hover{
+    transform: scale(1.1);
+    background: #962C875e;
+    box-shadow: 0px 0px 30px #962C87cc;
+}
+
+.img-tecnologias.sql:hover{
+    transform: scale(1.1);
+    background: #0078D75e;
+    box-shadow: 0px 0px 30px #0078D7cc;
+}
+
+.img-tecnologias.ai:hover{
+    transform: scale(1.1);
+    background: #5CA8FA5e;
+    box-shadow: 0px 0px 30px #5CA8FAcc;
+}
+
+.img-tecnologias.figma:hover{
+    transform: scale(1.1);
+    background: #FF4D125e;
+    box-shadow: 0px 0px 30px #FF4D12cc;
+}
+
+.img-tecnologias.ps:hover{
+    transform: scale(1.1);
+    background: #0027325e;
+    box-shadow: 0px 0px 30px #002732cc;
+}
+
+
 
 
 .infoProjs{
@@ -485,7 +585,7 @@ footer{
 }
 
 footer p{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -539,8 +639,8 @@ footer p{
     }
 
     .img-tecnologias{
-        height: 150px;
-        border-radius: 30px;
+        height: 100px;
+        border-radius: 50%;
     }
 
     .notbook
@@ -645,6 +745,14 @@ footer p{
         margin: 20px 50px;
         color: #034213;
     }
+
+    .btn-cv {
+        margin: 10px 0;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+
     .infoProjs{
        max-width: 80%; 
        font-size: 0.5rem;
@@ -682,8 +790,7 @@ footer p{
     }
 
     .img-tecnologias{
-        height: 100px;
-        border-radius: 30px;
+        height: 60px;
     }
 
     .projetos{
