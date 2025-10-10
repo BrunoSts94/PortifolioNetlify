@@ -6,6 +6,7 @@ const p5 = document.getElementById('p5');
 const p6 = document.getElementById('p6');
 const p7 = document.getElementById('p7');
 const p8 = document.getElementById('p8');
+const p10 = document.getElementById('p10');
 const imgSite = document.getElementById('imgSite')
 
 function showMenu(){
@@ -100,6 +101,14 @@ function showInfoProjs(valorP){
         Se trata de uma página comercial com o objetivo de apresentar um negócio e seus serviços.`
         imgSite.style.backgroundImage = "url('/img/img-elite.jpg')"
         linkPage.href = 'https://elitetreinamentos.netlify.app/'
+		break
+
+        case p10: //Prompt manager
+        textInfo.innerHTML = `Projeto de um gerenciador de Prompts com armazenamento em local storage.<br> 
+        Nesse projeto podemos gerenciar nosssos prompts, podendo adicionar, editar, excluir e pesquisar em uma lista. Também é possivel copiar a area de texto. Projeto responsivo para dispositivos móveis.<br>
+        Tecnologias utilizadas: HTML, CSS, Javascript e Microsoft Copilot`;
+        imgSite.style.backgroundImage = "url('/img/img-prompt.jpg')"
+        linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/prompt-manager/index.html'
 		break
 
 		default:
