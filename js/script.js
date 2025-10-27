@@ -62,7 +62,7 @@ function showInfoProjs(valorP){
         <strong>Tecnologias utilizadas:</strong> </br>
         HTML, CSS, JAVASCRIPT, REACT e consumo de API.`;
         imgSite.style.backgroundImage = "url('/img/img-previsao.jpg')"
-        linkPage.href = 'https://brunosts94.github.io/Projetos-Com-Build'
+        linkPage.href = 'https://brunosts94.github.io/Projetos-Com-Build/previsao-do-tempo'
 		break
 
         case p4: //Mario Brothers
