@@ -33,80 +33,111 @@ function showInfoProjs(valorP){
 
     switch(valorP) {
 		case p1: //Carrocel World of Tanks
-        textInfo.innerHTML = `Projeto de uma pagina com efeito de carrocel utilizando javascript para fazer a troca de imagens. <br> 
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto de uma pagina com efeito de carrocel utilizando javascript para fazer a troca de imagens. <br> 
         O tema do projeto é sobre o jogo World of Tanks, onde são apresentadas imagens do jogo e um breve resumo. <br>
-        Tecnologias utilizadas: HTML, CSS e JAVASCRIPT.`;
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS e JAVASCRIPT.`;
         imgSite.style.backgroundImage = "url('/img/img-wot.jpg')"
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/carrocel-world-of-tanks/index.html'
 		break
 
         case p2: //Gerenfacil
-        textInfo.innerHTML = `Projeto academico de uma landing page para apresentação de um software de gestão empresarial. <br>
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto academico de uma landing page para apresentação de um software de gestão empresarial. <br>
         O objetivo do projeto é apresentar o produto e suas funcionalidades, com o intuito de captar novos clientes. <br>
-        Tecnologias utilizadas: HTML, CSS.`;
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS.`;
         imgSite.style.backgroundImage = "url('/img/img-gfacil.jpg')"
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/gerenfacil/index.html'
 		break
 
         case p3: //Previsão do tempo
-        textInfo.innerHTML = `Projeto de uma pagina de consulta sobre previsão do tempo, onde o usuário pode digitar o nome da cidade e é retornado a previsão do tempo. <br> 
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto de uma pagina de consulta sobre previsão do tempo, onde o usuário pode digitar o nome da cidade e é retornado a previsão do tempo. <br> 
         o projeto tem como objetivo fazer ligação com uma API, e retornar informações climaticas conforme a localidade informada. <br>
-        Tecnologias utilizadas: HTML, CSS, JAVASCRIPT, REACT e consumo de API.`;
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS, JAVASCRIPT, REACT e consumo de API.`;
         imgSite.style.backgroundImage = "url('/img/img-previsao.jpg')"
-        linkPage.href = 'https://brunosts94.github.io/Projetos-React-Portifolio'
+        linkPage.href = 'https://brunosts94.github.io/Projetos-Com-Build'
 		break
 
         case p4: //Mario Brothers
-        textInfo.innerHTML = `Projeto criado para explorar novas funcionalidades do javascript, criação e recebimento de formularios, máscara de fundo e botões de direcionamento para redes sociais. <br>
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto criado para explorar novas funcionalidades do javascript, criação e recebimento de formularios, máscara de fundo e botões de direcionamento para redes sociais. <br>
         O objetivo do projeto é criar uma landing divertida, onde o usuario ao interagir com o botão de contato, é apresentado um formulario oculto. <br>
-        Tecnologias utilizadas: HTML, CSS, JAVASCRIPT e consumo de API.`;
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS, JAVASCRIPT e consumo de API.`;
         imgSite.style.backgroundImage = "url('/img/img-mario.jpg')"
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/mario-brothers/index.html'
 		break
 
         case p5:  //Ajustador RGB
-        textInfo.innerHTML = `Neste projeto pude aprender mais funcionalidades do javascript, criando um ajustador de cores. <br>
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Neste projeto pude aprender mais funcionalidades do javascript, criando um ajustador de cores. <br>
         O objetivo do projeto é permitir que o usuário ajuste as cores em um painel na página. <br>
-        Tecnologias utilizadas: HTML, CSS e JAVASCRIPT.`;
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS e JAVASCRIPT.`;
         imgSite.style.backgroundImage = "url('/img/img-rgb.jpg')"
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/ajustador-rgb/index.html'
 		break
 
         case p6: //X-men
-        textInfo.innerHTML = `Projeto criado com o objetivo de exercitar posicionamento de objetos e seleção na tela, com animações em javascript. <br>
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto criado com o objetivo de exercitar posicionamento de objetos e seleção na tela, com animações em javascript. <br>
         O tema do projeto é sobre o universo dos X-men. Onde o usuario clica sobre um personagem e automaticamente é trocado o fundo do site<br>
-        Tecnologias utilizadas: HTML, CSS e JAVASCRIPT.`;   
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS e JAVASCRIPT.`;   
         imgSite.style.backgroundImage = "url('/img/img-xmen.jpg')"
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/X-men/index.html'
 		break
 
-        case p7: //Parallax
-        textInfo.innerHTML = `Projeto academico onde aprendi como criar o efeito paralax em um site, foi um projeto simples mas que gostei bastante, pois pude explorar essse efeito interessandte juntamente com o uso de mídia. <br>
-        O tema do projeto é sobre o exército brasileiro, onde são apresentadas imagens que vão mudando conforme vamos escrolando a tela. <br>
-        Tecnologias utilizadas: HTML e CSS.`;
-        imgSite.style.backgroundImage = "url('/img/img-eb.jpg')"
-        linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/parallax/index.html'
+        case p7: //Linea Odonto
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto pessoal fullstack, sistema desenvolvido para uma clinica odontologica fictícia. <br>
+        No sistema o usuário pode marcar consultas para seus cliente conforme disponibilidade da agenda. <br>
+        Este projeto foca em demonstrar minha proficiência no consumo e manipulação de dados de APIs. </br>
+        * Nota: Devido à sua dependência de API, o projeto não está funcional na versão estática do GitHub Pages. Recomendo clonar o repositório, instalar as dependencias e posteriormente roda-lo (npm run server e npm run dev). </br>
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS, Javascript, NodeJs, Webpack, Dayjs (biblioteca).`;
+        imgSite.style.backgroundImage = "url('/img/img-linea.jpg')"
+        linkPage.href = 'https://brunosts94.github.io/Projetos-Com-Build/linea-odonto'
 		break
 
         case p8: //Agência Crescer
-        textInfo.innerHTML = `Projeto realizado para criação de uma pagina ficticia de uma agencia, aplicando responsividade. <br>
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto realizado para criação de uma pagina ficticia de uma agencia, aplicando responsividade. <br>
         O objetivo do projeto é apresentar uma empresa fictícia e seus serviços. <br>
-        Tecnologias utilizadas: HTML e CSS.`;
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML e CSS.`;
         imgSite.style.backgroundImage = "url('/img/img-agencia.jpg')"
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/agencia-crescer/index.html'
 		break
 
         case p9: //Elite Treinamentos
-        textInfo.innerHTML = `Projeto criado para a empresa Elite treinamentos. Esta foi o minha primeira experiência como freelancer, onde pude colocar em prática um pouco do meu conhecimento e empenho. <br> 
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto criado para a empresa Elite treinamentos. Esta foi o minha primeira experiência como freelancer, onde pude colocar em prática um pouco do meu conhecimento e empenho. <br> 
         Se trata de uma página comercial com o objetivo de apresentar um negócio e seus serviços.`
         imgSite.style.backgroundImage = "url('/img/img-elite.jpg')"
         linkPage.href = 'https://elitetreinamentos.netlify.app/'
 		break
 
         case p10: //Prompt manager
-        textInfo.innerHTML = `Projeto de um gerenciador de Prompts com armazenamento em local storage.<br> 
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto de um gerenciador de Prompts com armazenamento em local storage.<br> 
         Nesse projeto podemos gerenciar nosssos prompts, podendo adicionar, editar, excluir e pesquisar em uma lista. Também é possivel copiar a area de texto. Projeto responsivo para dispositivos móveis.<br>
-        Tecnologias utilizadas: HTML, CSS, Javascript e Microsoft Copilot`;
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS, Javascript e Microsoft Copilot`;
         imgSite.style.backgroundImage = "url('/img/img-prompt.jpg')"
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/prompt-manager/index.html'
 		break
