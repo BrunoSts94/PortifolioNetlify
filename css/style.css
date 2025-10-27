@@ -183,6 +183,12 @@ h1{
 }
 
 .sobre img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 2px #04d939;
+
     transform: translateX(70px);
     filter: blur(20px);
     opacity: 0;
@@ -210,13 +216,7 @@ h1{
     margin-bottom: 50px;
 }
 
-.sobre img{
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0px 0px 30px 2px #04d939;
-}
+
 
 .tecnologias{
     background-color: #323946;
@@ -240,100 +240,109 @@ h1{
     margin-bottom: 30px;
 }
 
-.caixaHabilidades{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 40px;
-    box-sizing: border-box;
+/*Tarja de habilidades*/
+.tech-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100vw;
+  padding: 20px 0;
+}
+
+.tech-track {
+  display: inline-flex;
+  gap: 40px;
+  animation: scroll 80s linear infinite;
+}
+
+.tech-track img {
+  height: 100px;
+  width: auto;
+}
+
+.tech-track img:hover {
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .img-tecnologias{
     height: 100px;
     border-radius: 50%;
-    transition: ease-in-out 0.5s;
-    cursor: pointer;
+    
 }
 
 .img-tecnologias.html:hover{
-    transform: scale(1.1);
     background: #ff77165e;
     box-shadow: 0px 0px 30px #FF7816cc;
 }
 
 .img-tecnologias.css:hover{
-    transform: scale(1.1);
     background: #004CE85e;
     box-shadow: 0px 0px 30px #004CE8cc;
 }
 
 .img-tecnologias.js:hover{
-    transform: scale(1.1);
     background: #F7E0185e;
     box-shadow: 0px 0px 30px #F7E018cc;
 }
 
 .img-tecnologias.ts:hover{
-    transform: scale(1.1);
     background: #0078D75e;
     box-shadow: 0px 0px 30px #0078D7cc;
 }
 
 .img-tecnologias.react:hover{
-    transform: scale(1.1);
     background: #30A2FF5e;
     box-shadow: 0px 0px 30px #30A2FFcc;
 }
 
 .img-tecnologias.node:hover{
-    transform: scale(1.1);
     background: #74A9635e;
     box-shadow: 0px 0px 30px #74A963cc;
 }
 
 .img-tecnologias.vite:hover{
-    transform: scale(1.1);
     background: #9962fe5e;
     box-shadow: 0px 0px 30px #9962fecc;
 }
 
 .img-tecnologias.tailwind:hover{
-    transform: scale(1.1);
     background: #44A8B35e;
     box-shadow: 0px 0px 30px #44A8B3cc;
 }
 
 .img-tecnologias.cs:hover{
-    transform: scale(1.1);
     background: #962C875e;
     box-shadow: 0px 0px 30px #962C87cc;
 }
 
 .img-tecnologias.sql:hover{
-    transform: scale(1.1);
     background: #0078D75e;
     box-shadow: 0px 0px 30px #0078D7cc;
 }
 
 .img-tecnologias.ai:hover{
-    transform: scale(1.1);
     background: #5CA8FA5e;
     box-shadow: 0px 0px 30px #5CA8FAcc;
 }
 
 .img-tecnologias.figma:hover{
-    transform: scale(1.1);
     background: #FF4D125e;
     box-shadow: 0px 0px 30px #FF4D12cc;
 }
 
 .img-tecnologias.ps:hover{
-    transform: scale(1.1);
     background: #0027325e;
     box-shadow: 0px 0px 30px #002732cc;
 }
-
-
-
 
 .infoProjs{
     position: absolute;
@@ -742,6 +751,7 @@ footer p{
 
     .sobre img{
         height: 150px;
+        width: 150px;
     }
 
     .sobre p{
