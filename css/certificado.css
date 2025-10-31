@@ -19,8 +19,8 @@
   transition: 0.5s;
 }
 .bpFab {  /*Aumenta o tamanho do icone*/
-  width: 110px !important;
-  height: 110px !important;
+  width: 100px !important;
+  height: 100px !important;
 } 
 
 header{
