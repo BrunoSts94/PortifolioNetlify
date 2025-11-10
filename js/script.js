@@ -111,15 +111,15 @@ function showInfoProjs(valorP){
         linkPage.href = 'https://brunosts94.github.io/Projetos-Com-Build/linea-odonto'
 		break
 
-        case p8: //Agência Crescer
+        case p8: //Beauty Saloon
         textInfo.innerHTML = `
         <strong>Sobre</strong></br>
-        Projeto realizado para criação de uma pagina ficticia de uma agencia, aplicando responsividade. <br>
-        O objetivo do projeto é apresentar uma empresa fictícia e seus serviços. <br>
+        Projeto pessoal de uma página ficticia para um salão de beleza. <br>
+        Pagina em desenvolvimento... <br>
         <strong>Tecnologias utilizadas:</strong> </br>
-        HTML e CSS.`;
-        imgSite.style.backgroundImage = "url('/img/img-agencia.jpg')"
-        linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/agencia-crescer/index.html'
+        HTML, CSS, Typescript, React e Node.`;
+        imgSite.style.backgroundImage = "url('/img/img-beauty.jpg')"
+        linkPage.href = 'https://brunosts94.github.io/Projetos-Com-Build/beauty-saloon'
 		break
 
         case p9: //Elite Treinamentos
