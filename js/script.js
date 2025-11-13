@@ -119,7 +119,7 @@ function showInfoProjs(valorP){
         <strong>Tecnologias utilizadas:</strong> </br>
         HTML, CSS, Typescript, React e Node.`;
         imgSite.style.backgroundImage = "url('/img/img-beauty.jpg')"
-        linkPage.href = 'https://brunosts94.github.io/Projetos-Com-Build/beauty-saloon'
+        linkPage.href = 'https://beauty-salloon-teste.netlify.app'
 		break
 
         case p9: //Elite Treinamentos
