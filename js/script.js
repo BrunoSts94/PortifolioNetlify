@@ -114,10 +114,10 @@ function showInfoProjs(valorP){
         case p8: //Beauty Saloon
         textInfo.innerHTML = `
         <strong>Sobre</strong></br>
-        Projeto pessoal de uma página ficticia para um salão de beleza. <br>
-        Pagina em desenvolvimento... <br>
+        Projeto pessoal de uma landingpage para salão de beleza. <br>
+        Pagina criada para meu portfolio de projetos freelancer. <br>
         <strong>Tecnologias utilizadas:</strong> </br>
-        HTML, CSS, Typescript, React e Node.`;
+        HTML, CSS, Typescript, React, Framer e Node.`;
         imgSite.style.backgroundImage = "url('/img/img-beauty.jpg')"
         linkPage.href = 'https://beauty-salloon-teste.netlify.app'
 		break
