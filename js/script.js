@@ -142,6 +142,17 @@ function showInfoProjs(valorP){
         linkPage.href = 'https://brunosts94.github.io/LandingPages_Portifolio/prompt-manager/index.html'
 		break
 
+        case p11: //Aroma e Sabor
+        textInfo.innerHTML = `
+        <strong>Sobre</strong></br>
+        Projeto de uma landing page para uma pastelaria fictícia.<br> 
+        Neste projeto o usuario acesssa uma landing page de uma pastelaria, onde ele pode fazer seu pedido adicionando e removendo itens de um cardapio, por fim ele finaliza as informações no checkout e envia para o estabelecimento via WhatsApp.<br>
+        <strong>Tecnologias utilizadas:</strong> </br>
+        HTML, CSS, Tailwind, Typescript, react, Vite e Framer-Motion`;
+        imgSite.style.backgroundImage = "url('/img/img-aroma.jpg')"
+        linkPage.href = 'https://brunosts94.github.io/aroma-e-sabor-pastelaria/'
+		break
+
 		default:
 		console.log("opção não cadastrada")
 		break
